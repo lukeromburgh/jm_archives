@@ -162,6 +162,14 @@ body {
     background-color: #fffaec;
 }
 
+.scaleUp {
+    transition-duration: 0.2s;
+}
+
+.scaleUp:hover {
+    scale: 102%;
+}
+
 .sectionHeading {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
