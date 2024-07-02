@@ -117,7 +117,6 @@ body {
 h1, h2, h3, h4 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-style: normal;
 }
 
 .navbar {
@@ -168,11 +167,8 @@ body {
     font-weight: 700;
     font-style: normal; 
     display: flex;
-    max-width: 65%;
     margin-left: 20px;
-    text-align: center; 
-    font-size: 70px; 
-    padding-top: 10px;
+    font-size: 50px; 
 }
 
 .sectionSubHeading {
