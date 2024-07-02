@@ -46,7 +46,22 @@ body {
     background-color: #fffaec;
 }
 
+.sectionHeading {
+    display: flex;
+    max-width: 65%;
+    margin-left: 20px;
+    text-align: center; 
+    font-size: 70px; 
+    padding-top: 10px;
+}
 
+.sectionSubHeading {
+    display: flex;
+    float: right;
+    text-align: right;
+    font-size: 12px; 
+    padding-top: 10px;
+}
 
 #landingPageStyle {
     width: 100%;
@@ -78,17 +93,47 @@ body {
 
 .audioBlock {
     padding: 6px;
-    margin-left: 15px;
+    margin-left: 30px;
     margin-top: 30px;
     float: left;
     margin-bottom: 100px;
-    border-radius: 10px;
-    border: 14px solid rgb(255, 170, 200);
+    border-radius: 8px;
+    background-color: #fffaec;
+    border: 4px solid #fffaec;
     transition-duration: 0.3s;
+    text-align: center;
+}
+
+.audioBlock img {
+    border-radius: 2px;
 }
 
 .audioBlock:hover {
     scale: 102%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    background-color: rgb(255, 170, 200);
+    border: 4px solid rgb(255, 170, 200);
+}
+
+.albumContainer {
+    width: 100%;
+    height: 500px;
+    padding-bottom: 50px;
+}
+
+.albumBlock {
+    padding: 6px;
+    margin-left: 15px;
+    margin-top: 30px;
+    float: left;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+}
+
+.albumBlock:hover {
+    scale: 102%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    background-color: rgb(255, 170, 200);;
 }
 
 .ytVideos {
