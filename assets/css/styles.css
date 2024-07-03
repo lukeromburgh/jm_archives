@@ -350,15 +350,90 @@ h1, h2, h3, h4 {
 }
 
 
-@media only screen and (max-width: 400px) {
-    /* For mobile phones: */
-    .videoBlock {
-        max-width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+/* Media Queries */
+@media (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sectionHeading {
+        font-size: 40px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .footer-section {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
     }
 
     .sectionHeading {
         font-size: 30px;
     }
-  }
+
+    #info p {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .albumContainer, .ytVideos {
+        height: 2vh;
+    }
+
+    .albumBlock{
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        max-width: 35%;
+    }
+
+    .videoBlock, .audioBlock {        
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        max-width: 55%;
+        margin-bottom: 20px;
+    }
+
+    .videoBlock iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+}
