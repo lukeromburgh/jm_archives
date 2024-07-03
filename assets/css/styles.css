@@ -141,6 +141,11 @@ h1, h2, h3, h4 {
     padding-top: 10px;
 }
 
+.headingDiv {
+    min-width: 100%;
+    max-height: 20%;
+}
+
 /*----------------------------------NAV AND FOOTER------------------------------------*/
 
 .navbar {
@@ -349,6 +354,8 @@ h1, h2, h3, h4 {
     /* For mobile phones: */
     .videoBlock {
         max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .sectionHeading {
