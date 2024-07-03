@@ -234,6 +234,7 @@ h1, h2, h3, h4 {
 }
 
 
+
 /*----------------------------------INDEX------------------------------------*/
 
 #landingPageStyle {
@@ -342,3 +343,15 @@ h1, h2, h3, h4 {
 .scaleUp:hover {
     scale: 102%;
 }
+
+
+@media only screen and (max-width: 400px) {
+    /* For mobile phones: */
+    .videoBlock {
+        max-width: 90%;
+    }
+
+    .sectionHeading {
+        font-size: 30px;
+    }
+  }
