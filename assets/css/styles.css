@@ -350,10 +350,12 @@ h1, h2, h3, h4 {
 }
 
 
-/* Media Queries */
+/*-------------------------------Media Queries-------------------------*/
+
 @media (max-width: 1024px) {
     .navbar {
         flex-direction: column;
+        min-width: 100%;
     }
 
     .nav-links {
@@ -376,17 +378,12 @@ h1, h2, h3, h4 {
         flex-direction: column;
         align-items: center;
         padding: 0 20px;
+        min-width: 100%;
     }
 
-    .footer-section {
-        padding: 10px 0;
-    }
 }
 
 @media (max-width: 600px) {
-    .navbar {
-        padding: 10px;
-    }
 
     .nav-links a {
         font-size: 14px;
@@ -403,8 +400,16 @@ h1, h2, h3, h4 {
         margin-right: 10%;
     }
 
-    .albumContainer, .ytVideos {
-        height: 2vh;
+    .audioContainer {
+        margin-bottom: 1400px;
+    }
+
+    .albumContainer {
+        margin-bottom: 2500px;
+    }
+
+    .ytVideos {
+        margin-bottom: auto;
     }
 
     .albumBlock{
