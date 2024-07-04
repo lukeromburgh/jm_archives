@@ -476,6 +476,16 @@ h1, h2, h3, h4 {
     }
 }
 
+@media (min-width: 1px) {
+    .footer, .navbar, .headingDiv {
+        width: 100%;
+    }
+
+    .footer-container {
+        position:sticky;
+    }
+}
+
 /*
 
 @media (max-width: 1024px) {
