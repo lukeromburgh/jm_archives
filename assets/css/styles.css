@@ -352,6 +352,7 @@ h1, h2, h3, h4 {
 
 /*-------------------------------Media Queries-------------------------*/
 
+
 @media (max-width: 1400px) {
 
     .audioBlock {
@@ -390,6 +391,10 @@ h1, h2, h3, h4 {
     .videoBlock iframe {
         height: 140px;
         width: 240px;
+    }
+
+    .audioContainer {
+        margin-bottom: 600px;
     }
 }
 
@@ -481,10 +486,11 @@ h1, h2, h3, h4 {
         width: 100%;
     }
 
-    .footer-container {
-        position:sticky;
+    .footer-section {
+        position:relative;
     }
 }
+
 
 /*
 
