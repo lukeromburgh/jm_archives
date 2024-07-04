@@ -352,6 +352,132 @@ h1, h2, h3, h4 {
 
 /*-------------------------------Media Queries-------------------------*/
 
+@media (max-width: 1400px) {
+
+    .audioBlock {
+        width: 250px;
+    }
+
+    .audioBlock img, iframe, h2 {
+        width: 250px;
+    }
+
+}
+
+@media (max-width: 1231px) {
+    .navbar {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sectionHeading {
+        font-size: 28px;
+    }
+
+    .ytVideos {
+        display: block;
+    }
+
+    .videoBlock h2 {
+        font-size: 18px;
+    }
+
+    .videoBlock {
+        margin: 10px;
+        float: left;
+    }
+
+    .videoBlock iframe {
+        height: 140px;
+        width: 240px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sectionHeading {
+        font-size: 40px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .ytVideos {
+        margin-bottom: 1000px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .sectionHeading {
+        font-size: 30px;
+    }
+
+    #info p {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .audioContainer {
+        margin-bottom: 1400px;
+    }
+
+    .albumContainer {
+        margin-bottom: 2500px;
+    }
+
+    .ytVideos {
+        margin-bottom: 50px;
+    }
+
+    .albumBlock{
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        max-width: 35%;
+    }
+
+    .videoBlock, .audioBlock {        
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        max-width: 55%;
+        margin-bottom: 20px;
+    }
+
+    .videoBlock iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 543px) {
+    .ytVideos {
+        margin-bottom: 50px;
+    }
+
+    .videoBlock iframe {
+        width: 80vw;
+        height: 20vh;
+    }
+}
+
+/*
+
 @media (max-width: 1024px) {
     .navbar {
         flex-direction: column;
@@ -366,6 +492,10 @@ h1, h2, h3, h4 {
     .nav-links li {
         margin-left: 0;
         margin-bottom: 10px;
+    }
+
+    .sectionHeading {
+        font-size: 35px;
     }
 }
 
@@ -417,7 +547,7 @@ h1, h2, h3, h4 {
     }
 
     .ytVideos {
-        margin-bottom: auto;
+        margin-bottom: 1000px;
     }
 
     .albumBlock{
@@ -458,3 +588,5 @@ h1, h2, h3, h4 {
     }
 
 }
+
+*/
