@@ -192,18 +192,23 @@ accent 3:         #7EDAD6
 <li>GitHub used for secure online code storage.</li>
 <li>GitHub Pages used for hosting the deployed front-end site.</li>
 <li>VSCode used for local IDE for development.</li>
-<li>Photoshop used for editing images, screenshots and favicon.</li>
+<li>Photoshop used for editing images, screenshots, and favicon.</li>
 <li>Favicon.cc used to create the favicon.</li>
-<li>Google Fonts used to search a suitable font and obtain a download link for that font.</li>
+<li>Google Fonts used to search a suitable font and obtain an embedd link for that font.</li>
 </ul>
 
-Feedback and Support
+<h2>Feedback and Support</h2>
 For feedback or support, please contact us through the following channels:
 
-Email: support@jm_archives.com
-GitHub Issues: Report issues on the GitHub repository's issues page.
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+<ul>
+<li>Email: support@jm_archives.com</li>
+<li>GitHub Issues: Report issues on the GitHub repository's issues page.</li>
+</ul>
+
+<h2>License</h2>
+This project is licensed under the MIT License.
 
 Acknowledgments
-Special thanks to all the contributors and the guitar community for their support and contributions to this project.
+Special thanks to all the contributors and the r/johnmayer Reddit community for their support and contributions to this project.
+
+
