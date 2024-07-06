@@ -273,6 +273,7 @@ Special thanks to all the contributors and the r/johnmayer Reddit community for 
 <h1>Testing</h1>
 
 <h2>HTML testing</h2>
+I have used <a href="https://validator.w3.org/">W3C HTML Validator</a> to validate my HTML code.
 <table>
   <tr>
   <th>Issue</th>
@@ -282,9 +283,32 @@ Special thanks to all the contributors and the r/johnmayer Reddit community for 
   <tr>
     <td>Alt on link</td>
     <td><img width="1440" alt="Screenshot 2024-07-06 at 11 48 48" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/032f100b-b286-42bb-972b-bfbcce3fb71b"></td>
+    <td>Remove the alt element as it doesn't need to be there.</td>
   </tr>
 </table>
 
+<h2>CSS testing</h2>
+I have used <a href="https://jigsaw.w3.org/css-validator/">W3C Jigsaw CSS Validator</a> to validate my CSS code.
+<table>
+  <tr>
+  <th>Issue</th>
+  <th>Screenshot</th>
+  <th>Fix</th>
+  </tr>
+  <tr>
+    <td>Scale property does not exist</td>
+    <td><img width="1440" alt="Screenshot 2024-07-06 at 11 52 37" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/02d58732-471c-4c76-870a-19aa7da23f9e"></td>
+    <td>I am unsure as to why I am getting this error, my research has shown that the scale property does in fact exist and I am yet to find an alternative that is as simple to use. Therefore this issue will remain unfixed.</td>
+  </tr>
+</table>
 
+<h2>Browser Support</h2>
+I have tested the website on Safari, Chrome, Arc, and Opera to check for compatibility issues.
+The website works correctly on all the browsers I tested.
 
+<h2>Accessibilty</h2>
+I used WAVE to double-check my accessibility ratings, thankfully I did this because I had missed some alt elements on a few images. (I went back and fixed this)
+<img width="1440" alt="Screenshot 2024-07-06 at 12 04 53" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/79cb61ed-bcfc-4a62-baa7-e2eedd549083">
+
+<img width="1440" alt="Screenshot 2024-07-06 at 12 13 23" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/e25e5215-bf9f-492d-bd25-70e25d109e13">
 
