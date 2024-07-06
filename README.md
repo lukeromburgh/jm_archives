@@ -267,4 +267,24 @@ This project is licensed under the MIT License.
 Acknowledgments
 Special thanks to all the contributors and the r/johnmayer Reddit community for their support and contributions to this project.
 
+<br>
+<pre>--------------------------------------------------------------------------------------------------------------------------------------------</pre>
+<br>
+<h1>Testing</h1>
+
+<h2>HTML testing</h2>
+<table>
+  <tr>
+  <th>Issue</th>
+  <th>Screenshot</th>
+  <th>Fix</th>
+  </tr>
+  <tr>
+    <td>Alt on link</td>
+    <td><img width="1440" alt="Screenshot 2024-07-06 at 11 48 48" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/032f100b-b286-42bb-972b-bfbcce3fb71b"></td>
+  </tr>
+</table>
+
+
+
 
