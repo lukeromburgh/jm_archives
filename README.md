@@ -33,6 +33,23 @@ Audio Files: Navigate to the 'Audio' section to stream or download music tracks.
 YouTube Links: Go to the 'Videos' section to find embedded YouTube videos of rare or unreleased songs.
 Guitar Tabs: Visit the 'Tabs' section to view and download guitar tabs for various songs.
 
+<h2>Target User</h2>
+<pre>
+The popular Reddit community r/johnmayer has over 65,000 members and is ranked in the top 2% of all 
+  Reddit communities by size. The members of this group are hard-core Mayer fans and follow both on 
+  and off the stage. A single hub on the internet where these fans could find unreleased music, 
+  YouTube videos, and tab sheets to learn his songs on guitar would be extremely popular. I plan to 
+  work on the site more to the point that I am happy to launch it as a live site and promote it on the subreddit. 
+<br>
+<img width="755" alt="Screenshot 2024-07-06 at 11 20 09" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/3142e3c6-186e-438c-8b94-bc41ccb07fde">
+<img width="760" alt="Screenshot 2024-07-06 at 11 20 39" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/29a15b4e-201e-40af-a453-e44d6448a2b9">
+<img width="751" alt="Screenshot 2024-07-06 at 11 21 13" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/766cea14-c929-444d-bb84-6990923925eb">
+<img width="760" alt="Screenshot 2024-07-06 at 11 24 52" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/6b9c2882-5f57-481b-8a92-fe4fe88c75cf">
+<br>
+Above are real-life scenarios of people looking for tab sheets and song recordings that would be on my 
+  site. As a member of the subreddit myself, I know first-hand just how many people ask these sorts of 
+  questions on a daily basis, and how many people would benefit from and enjoy a site like MayerArchives. 
+</pre>
 
 <h2>Contribution</h2>
 
@@ -200,6 +217,41 @@ accent 3:         #7EDAD6
 <li>Favicon.cc used to create the favicon.</li>
 <li>Google Fonts used to search a suitable font and obtain an embedd link for that font.</li>
 </ul>
+
+<h2>Deployment</h2>
+<h3>The site was deployed to GitHub Pages. The steps to deploy are as follows:</h3>
+<ol>
+<li>In the GitHub repository, navigate to the Settings tab.</li>
+<li>From the source section drop-down menu, select the Main Branch, then click "Save".</li>
+<li>The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
+</ol>
+<h3>Local Deployment</h3>
+This project can be cloned or forked in order to make a local copy on your own system.
+
+<h3>Cloning</h3>
+You can clone the repository by following these steps:
+<ol>
+<li>Go to the GitHub repository.</li>
+<li>Locate the Code button above the list of files and click it.</li>
+<li>Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard.</li>
+<li>Open Git Bash or Terminal.</li>
+<li>Change the current working directory to the one where you want the cloned directory.</li>
+<li>In your IDE Terminal, type the following command to clone my repository:</li>
+<li>git clone https://github.com/lukeromburgh/jm_archives.git</li>
+<li>Press Enter to create your local clone.</li>
+</ol>
+
+<h3>Forking</h3>
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository. You can fork this repository by using the following steps:
+
+<ol>
+<li>Log in to GitHub and locate the GitHub Repository.</li>
+<li>At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.</li>
+<li>Once clicked, you should now have a copy of the original repository in your own GitHub account.</li>
+</ol>
+
+<h3>Local vs Deployment</h3>
+There are no notable differences between my local developed site and the GitHub pages deployed site.
 
 <h2>Feedback and Support</h2>
 For feedback or support, please contact us through the following channels:
