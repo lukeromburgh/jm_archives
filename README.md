@@ -266,6 +266,10 @@ This project is licensed under the MIT License.
 
 Acknowledgments
 Special thanks to all the contributors and the r/johnmayer Reddit community for their support and contributions to this project.
+https://www.youtube.com/watch?v=K24lUqcT0Ms&t=295s - Slaying the dragon for his CSS tutorials
+https://www.youtube.com/watch?v=tRZGeaHPoaw&t=432s - Kevin Stratvert for his Git for Beginners video
+W3C Schools - for general CSS and HTML inquiries
+Chris Quinn - For guidance and advice on this project
 
 <br>
 <pre>--------------------------------------------------------------------------------------------------------------------------------------------</pre>
@@ -308,7 +312,12 @@ The website works correctly on all the browsers I tested.
 
 <h2>Accessibilty</h2>
 I used WAVE to double-check my accessibility ratings, thankfully I did this because I had missed some alt elements on a few images. (I went back and fixed this)
-<img width="1440" alt="Screenshot 2024-07-06 at 12 04 53" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/79cb61ed-bcfc-4a62-baa7-e2eedd549083">
+<img width="700" alt="Screenshot 2024-07-06 at 12 04 53" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/79cb61ed-bcfc-4a62-baa7-e2eedd549083">
 
-<img width="1440" alt="Screenshot 2024-07-06 at 12 13 23" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/e25e5215-bf9f-492d-bd25-70e25d109e13">
+<img width="700" alt="Screenshot 2024-07-06 at 12 13 23" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/e25e5215-bf9f-492d-bd25-70e25d109e13">
 
+
+<h2>Lighthouse Audit</h2>
+<img width="700" alt="Screenshot 2024-07-06 at 12 21 27" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/6febd4e4-93d0-4d50-a670-675fa8588666">
+<img width="700" alt="Screenshot 2024-07-06 at 12 21 56" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/f0276389-a425-473e-abac-ff6d7138fd99">
+<img width="700" alt="Screenshot 2024-07-06 at 12 19 36" src="https://github.com/lukeromburgh/jm_archives/assets/173364172/8678b84a-e488-461f-a3b0-aaa7dfe423ec">
